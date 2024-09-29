@@ -1,0 +1,16 @@
+# Ignorar archivos temporales del sistema
+*.log
+*.tmp
+
+# Ignorar carpetas y archivos de entornos virtuales
+venv/
+.env
+
+# Ignorar archivos de compilación
+build/
+dist/
+
+# Ignorar configuraciones de IDE
+.vscode/
+*.swp
+*.sublime-project
