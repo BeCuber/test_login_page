@@ -31,5 +31,16 @@
       "username": "admin@yourstore.com",
       "password": "admin"
     }
+  },
+  {
+    "id": "TABLA_P",
+    "url": "https://es.wikipedia.org/wiki/Tabla_peri%C3%B3dica_de_los_elementos",
+    "username_selector": "",
+    "password_selector": "",
+    "login_button_selector": "",
+    "credentials": {
+      "username": "",
+      "password": ""
+    }
   }
 ]
