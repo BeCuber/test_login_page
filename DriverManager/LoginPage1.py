@@ -1,9 +1,9 @@
 import json
 import os
 
-from DriverManager.Credentials import Credentials
+from DriverManager.Credentials1 import Credentials1
 
-class LoginPage:
+class LoginPage1:
     """
     Clase que representa una página de inicio de sesión.
 
@@ -52,8 +52,8 @@ class LoginPage:
         data = json.load(open(login_data_path))
         login_pages = []
         for entry in data:
-            credentials = Credentials(entry['credentials']['username'], entry['credentials']['password'])
-            login_page = LoginPage(
+            credentials = Credentials1(entry['credentials']['username'], entry['credentials']['password'])
+            login_page = LoginPage1(
                 entry['id'],
                 entry['url'],
                 entry['username_selector'],
@@ -77,7 +77,7 @@ class LoginPage:
 
         :return: El objeto LoginPage con el 'id' requerido, o None si no se encuentra.
         """
-        for page in LoginPage.read_login_data_from_json():
+        for page in LoginPage1.read_login_data_from_json():
             if page.id == page_id:
                 return page
         return None

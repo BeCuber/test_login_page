@@ -1,4 +1,4 @@
-class Credentials:
+class Credentials1:
     """
     Clase que almacena las credenciales de un usuario.
     """

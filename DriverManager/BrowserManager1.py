@@ -8,12 +8,12 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from DriverManager.LoginPage import LoginPage
+from DriverManager.LoginPage1 import LoginPage1
 from selenium.webdriver.remote.webelement import WebElement
 
 
 
-class BrowserManager:
+class BrowserManager1:
     def __init__(self, browser_type):
         """
         Inicializa el driver basado en el navegador seleccionado.
@@ -395,7 +395,7 @@ if __name__ == "__main__":
     # Cambia entre "chrome" y "firefox" según el navegador que quieras usar
     t=.7
     BARBAS = "https://practicetestautomation.com/practice-test-login/"
-    browser = BrowserManager("chrome")
+    browser = BrowserManager1("chrome")
     browser.open_browser(BARBAS)
     input_username = browser.select_element('xpath', '//*[@id="username"]', t)
     input_username.send_keys("student")

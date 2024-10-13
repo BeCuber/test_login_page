@@ -1,0 +1,17 @@
+[
+  {
+    "id": "BARBAS",
+    "username": "student",
+    "password": "Password123"
+  },
+  {
+    "id": "ROBOT",
+    "username": "practice",
+    "password": "SuperSecretPassword!"
+  },
+  {
+    "id": "DEMO",
+    "username": "admin@yourstore.com",
+    "password": "admin"
+  }
+]

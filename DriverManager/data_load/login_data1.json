@@ -1,0 +1,46 @@
+[
+  {
+    "id": "BARBAS",
+    "url": "https://practicetestautomation.com/practice-test-login/",
+    "username_selector": "//*[@id='username']",
+    "password_selector": "//*[@id='password']",
+    "login_button_selector": "//*[@id='submit']",
+    "credentials": {
+      "username": "student",
+      "password": "Password123"
+    }
+  },
+  {
+    "id": "ROBOT",
+    "url": "https://practice.expandtesting.com/login",
+    "username_selector": "//*[@id='username']",
+    "password_selector": "//*[@id='password']",
+    "login_button_selector": "//*[@id='login']/button",
+    "credentials": {
+      "username": "practice",
+      "password": "SuperSecretPassword!"
+    }
+  },
+  {
+    "id": "DEMO",
+    "url": "https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F",
+    "username_selector": "//*[@id='Email']",
+    "password_selector": "//*[@id='Password']",
+    "login_button_selector": "//*[@id='main']/div/div/div/div[2]/div[1]/div/form/div[3]/button",
+    "credentials": {
+      "username": "admin@yourstore.com",
+      "password": "admin"
+    }
+  },
+  {
+    "id": "TABLA_P",
+    "url": "https://es.wikipedia.org/wiki/Tabla_peri%C3%B3dica_de_los_elementos",
+    "username_selector": "",
+    "password_selector": "",
+    "login_button_selector": "",
+    "credentials": {
+      "username": "",
+      "password": ""
+    }
+  }
+]
